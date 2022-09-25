@@ -148,7 +148,7 @@ PID_GEN=$(ps x|grep -v grep|grep "VPSBot.sh")
 [[ ! $PID_GEN ]] && PID_GEN="\033[1;31moffline" || PID_GEN="\033[1;32monline"
 msg -bar && msg -bra "\033[7;49;35m                      VPSBOT                         "
 msg -bar
-menu_func 'TOKEN\nDEL\nBOT' "INICIAR/PARAR\nBOT\n$PID_GEN\033[0m" "ID\nDE\nUSUARIO\nTELEGRAM" "ACTUALIZAR" "AYUDA"
+menu_func 'TOKENS\nDEL\nBOT' "INICIAR/PARAR\nBOT\n$PID_GEN\033[0m" "ID\nDE\nUSUARIO\nTELEGRAM" "ACTUALIZAR" "AYUDA"
 msg -bar && echo -ne "$(msg -verd "[0]") $(msg -aqua ">") "&& msg -bra "\033[7;49;35mSALIR DEL SCRIPT"
 msg -bar
 selection=$(selection_fun 5)
