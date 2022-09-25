@@ -2,7 +2,7 @@
 
 dirb="/etc/VPSBot" && [[ ! -d ${dirb} ]] && mkdir ${dirb}
 dirs="${dirb}/sources" && [[ ! -d ${dirs} ]] && mkdir ${dirs}
-SCPresq="https://www.dropbox.com/sh/2p89lzflgoc11nk/AAA6eB_YeqFlvhWLC3Us8KXja?dl=0"
+SCPresq="https://www.dropbox.com/sh/2p89lzflgoc11nk/AAA6eB_YeqFlvhWLC3Us8KXja"
 SUB_DOM='base64 -d'
 bar="\e[0;36m=====================================================\e[0m"
 
