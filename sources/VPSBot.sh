@@ -21,6 +21,7 @@ source ${SRC}/id
 source ${SRC}/comandos
 source ${SRC}/update
 source ${SRC}/comandline
+source ${CIDdir}/botScript.sh
 
 # Token del bot
 bot_token="$(cat token)"
