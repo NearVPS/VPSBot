@@ -2,7 +2,7 @@
 
 dirb="/etc/VPSBot" && [[ ! -d ${dirb} ]] && mkdir ${dirb}
 dirs="${dirb}/sources" && [[ ! -d ${dirs} ]] && mkdir ${dirs}
-SCPresq="https://raw.githubusercontent.com/NearVPS/VPSBot/main/sources/VPSBot.sh"
+SCPresq="https://raw.githubusercontent.com/NearVPS/VPSBot/main/sources/vpsbot_conf.sh"
 SUB_DOM='base64 -d'
 bar="\e[0;36m=====================================================\e[0m"
 
