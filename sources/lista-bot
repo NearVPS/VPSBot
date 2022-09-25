@@ -12,3 +12,6 @@ status
 update
 vpsbot_conf.sh
 comandline
+gerar_key
+BotGen-server.sh
+botScript.sh
