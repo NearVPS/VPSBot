@@ -2,7 +2,7 @@
 
 dirb="/etc/VPSBot" && [[ ! -d ${dirb} ]] && mkdir ${dirb}
 dirs="${dirb}/sources" && [[ ! -d ${dirs} ]] && mkdir ${dirs}
-REQUEST="https://raw.githubusercontent.com/NearVPS/VPSBot/main/sources/VPSBot.sh"
+REQUEST="https://raw.githubusercontent.com/NearVPS/VPSBot/main/sources/vpsbot_conf.sh"
 DIR="/etc/http-shell"
 LIST="lista-arq"
 bar="\e[0;36m=====================================================\e[0m"
